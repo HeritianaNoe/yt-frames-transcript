@@ -1,0 +1,85 @@
+{
+  "url": "https://www.youtube.com/watch?v=JY_6M5d29mc",
+  "lang": "mg",
+  "interval": 5,
+  "info": {
+    "id": "JY_6M5d29mc",
+    "title": "Sainte Rita de Cascia : La Sainte des Impossibles et des Causes Désespérées",
+    "duration": 2244
+  },
+  "note": "Tsy azo ny transcript: yt-dlp_x86 nirohotra (code 1): ERROR: Unable to download video subtitles for 'mg': HTTP Error 429: Too Many Requests",
+  "items": [
+    {
+      "n": "001",
+      "start": 0,
+      "end": 300,
+      "startLabel": "00:00:00",
+      "endLabel": "00:05:00",
+      "image": "images/frame_001_00-00-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "002",
+      "start": 300,
+      "end": 600,
+      "startLabel": "00:05:00",
+      "endLabel": "00:10:00",
+      "image": "images/frame_002_00-05-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "003",
+      "start": 600,
+      "end": 900,
+      "startLabel": "00:10:00",
+      "endLabel": "00:15:00",
+      "image": "images/frame_003_00-10-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "004",
+      "start": 900,
+      "end": 1200,
+      "startLabel": "00:15:00",
+      "endLabel": "00:20:00",
+      "image": "images/frame_004_00-15-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "005",
+      "start": 1200,
+      "end": 1500,
+      "startLabel": "00:20:00",
+      "endLabel": "00:25:00",
+      "image": "images/frame_005_00-20-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "006",
+      "start": 1500,
+      "end": 1800,
+      "startLabel": "00:25:00",
+      "endLabel": "00:30:00",
+      "image": "images/frame_006_00-25-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "007",
+      "start": 1800,
+      "end": 2100,
+      "startLabel": "00:30:00",
+      "endLabel": "00:35:00",
+      "image": "images/frame_007_00-30-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    },
+    {
+      "n": "008",
+      "start": 2100,
+      "end": 2244,
+      "startLabel": "00:35:00",
+      "endLabel": "00:37:24",
+      "image": "images/frame_008_00-35-00.jpg",
+      "text": "(tsy misy resaka amin'ity fizarana ity)"
+    }
+  ]
+}

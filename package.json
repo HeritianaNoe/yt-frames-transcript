@@ -1,0 +1,21 @@
+{
+  "name": "yt-frames-web",
+  "version": "1.0.0",
+  "description": "Web app: lien YouTube -> sary isaky ny 5 min + transcript (mg/fr/en) + zip",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.19.2",
+    "pdfkit": "^0.17.2"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.2.0"
+  },
+  "license": "MIT"
+}

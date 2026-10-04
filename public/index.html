@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="mg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube → Sary + Transcript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>🎞️ YouTube → Sary + Transcript</h1>
+      <p>Apetraho ny lien, safidio ny teny, dia haka sary isaky ny fotoana voafidy izy ary hanome ny transcript mifanaraka amin'ny sary tsirairay.</p>
+    </header>
+
+    <form id="form">
+      <label>Lien YouTube
+        <input id="url" type="url" required placeholder="https://www.youtube.com/watch?v=...">
+      </label>
+      <div class="row">
+        <label>Teny transcript
+          <select id="lang">
+            <option value="mg">Malagasy</option>
+            <option value="fr">Frantsay</option>
+            <option value="en">Anglisy</option>
+          </select>
+        </label>
+        <label>Isaky ny (minitra)
+          <input id="interval" type="number" min="0.5" step="0.5" value="5">
+        </label>
+        <label>Kalitao video
+          <select id="quality">
+            <option value="360">360p</option>
+            <option value="480" selected>480p</option>
+            <option value="720">720p</option>
+            <option value="1080">1080p</option>
+          </select>
+        </label>
+      </div>
+      <button id="go" type="submit">Hanomboka</button>
+    </form>
+
+    <section id="status" hidden>
+      <div class="bar"><div id="spinner"></div><strong id="state">Miandry...</strong></div>
+      <pre id="log"></pre>
+    </section>
+
+    <section id="result" hidden>
+      <div class="top">
+        <div>
+          <h2 id="title"></h2>
+          <p id="note" class="note"></p>
+        </div>
+        <a id="pdf" class="btn" href="#" hidden>⬇ PDF: sary + soratra</a>
+        <a id="zip" class="btn" href="#">⬇ Zip feno</a>
+      </div>
+      <div id="items"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
