@@ -9,8 +9,7 @@
 <body>
   <main>
     <header>
-      <h1>🎞️ YouTube → Sary + Transcript</h1>
-      <p>Apetraho ny lien, safidio ny teny, dia haka sary isaky ny fotoana voafidy izy ary hanome ny transcript mifanaraka amin'ny sary tsirairay.</p>
+      <h1>🎞️ YouTube → Sary + Soratra</h1>
     </header>
 
     <form id="form">
@@ -26,7 +25,7 @@
           </select>
         </label>
         <label>Isaky ny (minitra)
-          <input id="interval" type="number" min="0.5" step="0.5" value="5">
+          <input id="interval" type="number" min="1.0" step="1.0" value="5">
         </label>
         <label>Kalitao video
           <select id="quality">
@@ -36,8 +35,8 @@
             <option value="1080">1080p</option>
           </select>
         </label>
+	<button id="go" type="submit">Manomboka</button>
       </div>
-      <button id="go" type="submit">Hanomboka</button>
     </form>
 
     <section id="status" hidden>
@@ -46,15 +45,10 @@
     </section>
 
     <section id="result" hidden>
-      <div class="top">
-        <div>
-          <h2 id="title"></h2>
-          <p id="note" class="note"></p>
-        </div>
-        <a id="pdf" class="btn" href="#" hidden>⬇ PDF: sary + soratra</a>
-        <a id="zip" class="btn" href="#">⬇ Zip feno</a>
+      <div class="actions">
+        <a id="pdf" class="btn" href="#">⬇ PDF</a>
+        <a id="zip" class="btn" href="#">⬇ ZIP</a>
       </div>
-      <div id="items"></div>
     </section>
   </main>
   <script src="app.js"></script>

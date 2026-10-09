@@ -7,9 +7,10 @@ header p{color:var(--mut)}
 form,.card,#status{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:1.2rem}
 form{display:grid;gap:1rem}
 label{display:grid;gap:.35rem;font-size:.9rem;color:var(--mut)}
-input,select{padding:.65rem .8rem;border:1px solid var(--bd);border-radius:8px;background:transparent;color:var(--fg);font:inherit}
-.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem}
-button,.btn{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:.7rem 1.2rem;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+input,select{padding:.65rem .8rem;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--fg);font:inherit;height:2.6rem}
+select option{background:var(--card);color:var(--fg)}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;align-items:end}
+button,.btn{background:var(--ac);color:#fff;border:0;border-radius:8px;padding:0 1.2rem;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;height:2.6rem}
 button:disabled{opacity:.5;cursor:wait}
 #status{margin-top:1.2rem}
 .bar{display:flex;align-items:center;gap:.7rem}
@@ -18,12 +19,5 @@ button:disabled{opacity:.5;cursor:wait}
 @keyframes s{to{transform:rotate(360deg)}}
 pre{max-height:180px;overflow:auto;background:var(--bg);padding:.8rem;border-radius:8px;font-size:.85rem;white-space:pre-wrap}
 #result{margin-top:1.5rem}
-.top{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;flex-wrap:wrap}
-.top h2{margin:0 0 .3rem}
-.note{color:#c77700;margin:0}
-#items{display:grid;gap:1rem;margin-top:1rem}
-.card img{width:100%;border-radius:8px;display:block}
-.card h3{margin:.2rem 0 .7rem;font-size:1rem}
-.card p{white-space:pre-wrap;margin:.7rem 0}
-.card button{background:transparent;color:var(--fg);border:1px solid var(--bd);padding:.4rem .8rem;font-weight:500}
+.actions{display:flex;gap:1rem;flex-wrap:wrap}
 .err{color:var(--ac)}

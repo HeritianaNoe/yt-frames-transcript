@@ -141,10 +141,9 @@ async function runPipeline(o, cb = {}) {
   log(`${info.title} (${hms(duration)})`);
 
   // ========== 1) ALAIVO DAHOLO NY TEXT TRANSCRIPTION NY VIDEO ALOHA ==========
-  log(`Mangalatra transcript feno (${LANGS[o.lang]})...`);
+  log(`Maka transcript feno (${LANGS[o.lang]})...`);
   let segs = [], note = '', from = null;
   const avail = new Set([...Object.keys(info.subtitles || {}), ...Object.keys(info.automatic_captions || {})]);
-  log(`Subtitle hita: ${[...avail].join(', ') || '(tsy misy)'}`);
 
   // Lisitra fanaovana andrana (target lang, avy eo source tsara indrindra, avy eo en)
   const tryLangs = [];

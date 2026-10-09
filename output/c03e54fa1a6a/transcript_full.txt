@@ -1,0 +1,259 @@
+[00:00:00] bonjour à tous dans cette vidéo que je vais montrer
+[00:00:03] vous comment créer un fichier d'installation en utilisant
+[00:00:05] studio visuel 2022
+[00:00:08] ce fichier d'installation nous permet d'installer tous
+[00:00:10] applications créées à l'aide de c-sharp
+[00:00:13] vb.net et c plus plus
+[00:00:16] alors créons d'abord l'application
+[00:00:18] que nous voulons installer plus tard sur Windows
+[00:00:21] alors cliquons sur créer un nouveau projet
+[00:00:24] créons maintenant une nouvelle application en utilisant
+[00:00:27] c dièse donc pour la langue sélectionnons
+[00:00:30] c-sharp et pour le type de projet, allons
+[00:00:33] sélectionner le bureau
+[00:00:35] et ici, sélectionnons l'application Windows Forms
+[00:00:38] cliquons sur suivant
+[00:00:40] donc pour le nom du projet, je l'appellerai
+[00:00:42] gestion des stocks
+[00:00:45] maintenant cliquons sur suivant
+[00:00:48] et cliquons sur créer
+[00:00:52] maintenant le projet a été créé et par
+[00:00:54] par défaut, il contient cette interface donc nous
+[00:00:57] je peux le changer
+[00:01:01] maintenant, sauvons cette application
+[00:01:04] et aussi nous pouvons changer
+[00:01:06] la version de cette application pour
+[00:01:08] exemple sélectionnons
+[00:01:10] libérer
+[00:01:12] maintenant, exécutons-le
+[00:01:15] et on obtient cette interface
+[00:01:18] maintenant je vais vous montrer comment créer le
+[00:01:20] fichier d'installation pour cette application
+[00:01:23] donc nous devons d'abord installer un nouveau
+[00:01:25] extension
+[00:01:27] alors passons aux extensions
+[00:01:29] puis gérer les extensions
+[00:01:34] et ici tapons installateur
+[00:01:41] donc ici nous devons installer ceci
+[00:01:43] extension, cela s'appelle Microsoft Visual
+[00:01:46] projet d'installateur de studio 2022
+[00:01:49] cliquons dessus puis cliquons sur
+[00:01:51] télécharger
+[00:01:55] donc ici nous pouvons voir que l'installation
+[00:01:57] commencera une fois que nous fermerons Visual Studio
+[00:02:00] alors fermons cette fenêtre
+[00:02:02] et fermons aussi le studio visuel
+[00:02:08] donc cette fenêtre apparaît et le
+[00:02:10] l'installation va commencer
+[00:02:16] dans cette fenêtre cliquons sur modifier
+[00:02:22] nous devons attendre la fin du
+[00:02:23] installation
+[00:02:28] maintenant l'extension est installée correctement
+[00:02:30] alors fermons cette fenêtre
+[00:02:32] et commençons Visual Studio
+[00:02:36] alors sélectionnons notre projet précédent
+[00:02:41] et maintenant nous devons ajouter un nouveau projet à
+[00:02:43] cette solution donc le projet que nous
+[00:02:46] il faut ajouter un projet d'installation de type
+[00:02:49] alors faisons un clic droit sur le
+[00:02:51] nom de la solution
+[00:02:54] puis ajoutez
+[00:02:55] puis nouveau projet
+[00:02:59] donc dans cette fenêtre supprimons c-sharp
+[00:03:01] de ce champ
+[00:03:03] faisons la même chose pour le bureau
+[00:03:05] sélectionnons tous les types de projets
+[00:03:08] et dans le champ de recherche, tapons setup
+[00:03:13] donc ici nous avons cette option, c'est la configuration
+[00:03:15] projet, sélectionnons-le et cliquons
+[00:03:18] suivant
+[00:03:20] donc ici nous devons fournir le projet
+[00:03:21] nom je l'appellerai gestion des stocks
+[00:03:24] installation
+[00:03:27] donc il sera enregistré dans le même dossier
+[00:03:29] comme notre projet précédent
+[00:03:31] maintenant cliquons sur créer
+[00:03:35] donc ici nous pouvons voir que notre solution
+[00:03:37] contient deux projets
+[00:03:39] notre application et le projet d'installation
+[00:03:43] et ici on obtient cette interface donc on
+[00:03:46] je peux voir que nous avons trois dossiers donc dans
+[00:03:48] notre cas, nous devons ajouter cette application
+[00:03:52] à ce dossier d'application
+[00:03:54] et nous devons ajouter un raccourci à ceci
+[00:03:56] dossier et nous devons également ajouter un
+[00:03:58] raccourci vers ce troisième dossier
+[00:04:01] donc ces trois dossiers nous pouvons les voir
+[00:04:04] dans cette zone d'exploration, alors commençons par
+[00:04:07] sélectionnez ce dossier
+[00:04:09] donc pour le moment il est vide il faut
+[00:04:11] faire un clic droit
+[00:04:13] puis ajoutez
+[00:04:14] puis sortie du projet
+[00:04:18] donc ici nous devons sélectionner
+[00:04:20] publier des éléments
+[00:04:21] aussi pour la configuration dont nous avons besoin
+[00:04:23] sélectionner actif
+[00:04:25] et maintenant cliquons sur ok
+[00:04:29] donc cet élément a été ajouté
+[00:04:31] maintenant nous devons ajouter une icône à cela
+[00:04:34] projet donc l'icône devrait avoir l'ico
+[00:04:37] extension et sera utilisé pour créer l'extension
+[00:04:40] raccourcis alors téléchargeons une icône pour
+[00:04:43] allons au navigateur
+[00:04:46] et ici tapons les icônes gratuites ico
+[00:04:52] alors nous pouvons aller à ce premier lien
+[00:04:56] et dans cette fenêtre, nous pouvons cliquer ici pour
+[00:04:58] exemple
+[00:05:00] alors nous pouvons télécharger cette icône
+[00:05:03] alors sélectionnons ici la résolution que nous
+[00:05:05] pouvons sélectionner cette résolution aussi nous avons besoin
+[00:05:08] pour sélectionner cette extension qui est ico
+[00:05:13] maintenant cliquons sur l'icône de téléchargement
+[00:05:17] et maintenant nous devons sauvegarder ce fichier donc je
+[00:05:19] je l'enregistrerai dans le dossier images
+[00:05:22] cliquons sur enregistrer
+[00:05:25] et ajoutons-le à ce projet donc
+[00:05:28] faisons un clic droit
+[00:05:29] puis ajoutez
+[00:05:31] puis déposez
+[00:05:33] allons à
+[00:05:35] des photos
+[00:05:36] et sélectionnons ce fichier cliquons
+[00:05:38] à l'ouverture
+[00:05:40] maintenant ce fichier a été ajouté et maintenant nous
+[00:05:43] peut créer un raccourci vers notre application
+[00:05:46] alors faisons un clic droit sur cet élément
+[00:05:49] puis créez un raccourci
+[00:05:52] et nous devons lui donner un nom, je
+[00:05:55] j'appellerai ça la gestion des stocks
+[00:06:00] alors nous devons lui fournir une icône pour que
+[00:06:03] allons à ses propriétés
+[00:06:06] et ici, dans l'icône, fournissons le
+[00:06:08] icône
+[00:06:11] donc notre icône est disponible dans le setup
+[00:06:14] projet alors cliquons sur parcourir
+[00:06:16] et sélectionnons le dossier d'application puis
+[00:06:20] nous avons cette icône alors sélectionnons-la et
+[00:06:22] cliquons sur ok
+[00:06:24] alors cliquons sur ok
+[00:06:27] donc ce raccourci a été créé et nous
+[00:06:29] besoin de le déplacer vers le dossier du bureau pour que
+[00:06:33] faisons un clic droit
+[00:06:34] puis coupe
+[00:06:36] allons sur le bureau de l'utilisateur
+[00:06:39] puis clic droit alors
+[00:06:42] coller
+[00:06:43] créons maintenant un nouveau raccourci que nous
+[00:06:46] va ajouter à ce dossier alors revenons en arrière
+[00:06:48] au dossier de candidature
+[00:06:50] puis faites un clic droit sur cet élément
+[00:06:53] puis créez un raccourci
+[00:06:55] appelons ça la gestion des stocks
+[00:07:00] et donnons-lui l'icône ainsi dans
+[00:07:02] le
+[00:07:03] propriétés, allons à l'icône
+[00:07:06] cliquons sur parcourir
+[00:07:08] puis parcourez
+[00:07:10] puis le dossier d'application et sélectionnons
+[00:07:13] cette icône alors ok
+[00:07:15] alors ok
+[00:07:16] maintenant faites un clic droit sur ce raccourci
+[00:07:19] et couper
+[00:07:21] allons au menu des programmes
+[00:07:24] puis clic droit
+[00:07:25] puis collez
+[00:07:27] maintenant nous devons modifier certaines propriétés de
+[00:07:29] notre projet d'installation alors sélectionnons-le et
+[00:07:32] allons aux propriétés
+[00:07:34] donc ici on peut changer l'auteur
+[00:07:43] alors il faut changer de fabricant
+[00:07:49] donc c'est le fabricant, changeons
+[00:07:51] la valeur
+[00:07:54] et appuyons sur Entrée
+[00:07:57] maintenant nous devons créer le fichier d'installation donc
+[00:07:59] faisons un clic droit sur cette configuration
+[00:08:01] projet
+[00:08:03] puis construisons
+[00:08:08] donc ici nous pouvons voir que le projet a
+[00:08:10] été construit avec succès
+[00:08:12] maintenant, pour obtenir le fichier d'installation, nous devons
+[00:08:15] faites un clic droit sur le projet d'installation
+[00:08:17] puis ouvrez l'explorateur de dossiers et de fichiers
+[00:08:21] nous avons donc créé la version release
+[00:08:24] de l'application, nous devons donc aller à
+[00:08:26] ce dossier de version
+[00:08:28] nous avons donc ici ces deux fichiers que nous avons
+[00:08:30] ce fichier d'installation et nous avons ce msi
+[00:08:34] fichier le fichier d'installation n'est qu'un raccourci
+[00:08:37] to this file so we can use either this
+[00:08:39] file alone or also we can use this file
+[00:08:43] which will start this second file
+[00:08:46] so both files can be used to install our
+[00:08:49] application so we can use this file for
+[00:08:51] example so let's run it
+[00:08:54] so we obtain this interface
+[00:08:59] if i click on next
+[00:09:01] i will obtain this default path where
+[00:09:04] the application will be installed so
+[00:09:06] here i can select everyone then let's
+[00:09:09] click on next
+[00:09:11] then next
+[00:09:12] [Music]
+[00:09:16] and here the installation finished
+[00:09:17] successfully and also we have this
+[00:09:20] shortcut of our application on the
+[00:09:22] desktop so let's close this installer
+[00:09:25] and let's use this shortcut to start our
+[00:09:28] application
+[00:09:30] and we obtain this application that we
+[00:09:32] have already created
+[00:09:35] now we can make a right click on this
+[00:09:37] shortcut to find the location where the
+[00:09:40] application is installed so let's make a
+[00:09:42] right click
+[00:09:43] then properties and let's copy this path
+[00:09:54] then let's paste the path in this field
+[00:09:58] so this folder is available on the c
+[00:10:01] drive into program files into this
+[00:10:04] folder which is the manufacturer name
+[00:10:08] and finally we have this folder which is
+[00:10:11] the name of the setup project
+[00:10:13] now let's close this folder
+[00:10:15] and we can also uninstall the
+[00:10:17] application so to uninstall the
+[00:10:20] application we have two options we can
+[00:10:23] either go
+[00:10:24] to programs and features
+[00:10:27] so here we can see that we have this
+[00:10:30] application and we can uninstall it so
+[00:10:33] let's click on uninstall
+[00:10:35] then let's click on yes
+[00:10:37] [Music]
+[00:10:39] and we can see now that the application
+[00:10:40] has been removed from the computer
+[00:10:47] we can go back to the folder that
+[00:10:48] contains the installer so let's make a
+[00:10:50] right click
+[00:10:52] then open folder in file explorer
+[00:10:55] and then release
+[00:10:58] and then we can install the application
+[00:11:00] again so let's double click on this file
+[00:11:04] then next
+[00:11:05] so we can accept this default path let's
+[00:11:08] select everyone and let's click on next
+[00:11:11] then next
+[00:11:15] and now the application is installed
+[00:11:17] correctly so let's click on close
+[00:11:20] so the second option to uninstall the
+[00:11:22] application is to run the installer a
+[00:11:25] second time so let's double click on
+[00:11:27] this installer
+[00:11:29] and this time we have these two options
+[00:11:31] so if we want to remove the application
+[00:11:34] from the computer we have just to select
+[00:11:36] remove
+[00:11:37] and the name of the application now
+[00:11:39] let's click on finish
+[00:11:44] and you can see that the application has
+[00:11:46] been removed correctly
